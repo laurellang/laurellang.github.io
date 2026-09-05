@@ -1,19 +1,11 @@
-# 🧑‍🚀 Personal Homepage Template [[Preview](https://w-r-s.github.io/academic-homepage-template/)]
+# Zixuan Lang's Academic Homepage
 
-This repository is a reusable academic and personal homepage template. The visible profile belongs to a fictional person; names, affiliations, projects, publications, awards, and contact details are sample content only.
+Personal academic homepage for Zixuan Lang, a Data Science undergraduate at Tongji University interested in Human-Scene Interaction and robotics.
 
-Start locally with:
+The site is published with GitHub Pages at [laurellang.github.io](https://laurellang.github.io/).
+
+## Local preview
 
 ```bash
-python3 -m http.server 8080 --bind 127.0.0.1
+python -m http.server 8080 --bind 127.0.0.1
 ```
-
-Before publishing, replace the sample identity and links in `index.html` and the placeholder assets in `images/template/`.
-
-This homepage benefits from many projects and tools, including but not limited to:
-
-- Claude Code with Opus 4.6
-- CodeX with GPT-5.5
-- Audio-Interaction: https://xzf-thu.github.io/Audio-Interaction/
-
-> Keep the layout, customize the content, and make it yours.
