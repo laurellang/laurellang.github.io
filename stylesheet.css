@@ -1142,7 +1142,8 @@ body {
   min-width: 0;
 }
 
-.work-media > img:first-child {
+.work-media > img:first-child,
+.work-media > video:first-child {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -1405,7 +1406,8 @@ body {
   gap: 14px;
 }
 
-.work-card--paper .work-media > img:first-child {
+.work-card--paper .work-media > img:first-child,
+.work-card--paper .work-media > video:first-child {
   aspect-ratio: auto;
   height: auto;
   object-fit: contain;
