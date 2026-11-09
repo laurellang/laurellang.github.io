@@ -1400,9 +1400,10 @@ body {
   }
 }
 
-/* Featured paper card: keep the wide diagram fully visible inside the standard media column. */
-.work-card--paper .work-media > img:first-child,
-.work-card--paper .work-media > video:first-child {
+/* Featured paper card: show the full GIF in the standard left-right card layout. */
+.work-card--paper .work-media > img:first-child {
+  aspect-ratio: auto;
+  height: auto;
   object-fit: contain;
   background: #fafafa;
 }
