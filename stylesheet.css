@@ -1151,6 +1151,11 @@ body {
   object-position: top center;
 }
 
+.work-media--paper > img:first-child {
+  object-fit: contain;
+  background: #fafafa;
+}
+
 .work-media .repo-stars {
   display: block;
   width: auto;
